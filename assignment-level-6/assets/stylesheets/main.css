@@ -1,0 +1,224 @@
+/* Resets */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Master-styling */
+
+body,
+section {
+  text-align: center;
+  line-height: 50px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 40px;
+}
+h2 {
+  font-size: 2rem;
+  margin: 30px;
+}
+h3 {
+  font-size: 1.2rem;
+}
+main > section {
+  margin: 30px 0;
+}
+h2 + h3 {
+  margin-top: -40px;
+  word-spacing: 10px;
+}
+
+/* Exercise-1 */
+
+.line {
+  width: 560px;
+  border-top: 1px dashed gray;
+}
+.margin-div {
+  width: 260px;
+  height: 260px;
+  display: inline-block;
+  padding: 25px;
+  background: #ed7f80;
+}
+.padding-div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 20px;
+  border: 10px solid black;
+  background-color: #add8e6;
+}
+.styling-div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: #dafad4;
+}
+.box-model-info section {
+  display: inline-block;
+  margin: 40px 60px 30px 30px;
+}
+.content,
+.padding,
+.border,
+.margin,
+.box-model-info p {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Exercise-2 */
+
+.parent-div {
+  width: 600px;
+  display: inline-block;
+  border: 1px solid gray;
+  font-size: 0;
+  line-height: 0;
+  text-align: left;
+}
+.child-div {
+  width: 180px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  background: rgb(179, 178, 178);
+}
+
+/* border-div */
+
+.border-div {
+  border: 1px solid gray;
+}
+
+/* Same line border-div */
+
+.inline-div {
+  box-sizing: border-box;
+}

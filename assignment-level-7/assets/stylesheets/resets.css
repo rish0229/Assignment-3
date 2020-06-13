@@ -125,16 +125,3 @@ table {
   border-spacing: 0;
 }
 
-/* content-styling */
-
-.styling-div {
-  width: 350px;
-  height: 350px;
-  padding: 20px;
-  margin: 60px;
-  background-color: wheat;
-  box-sizing: border-box;
-  box-shadow: 0 0 0 30px rgb(223, 100, 100);
-  border: 10px solid black;
-  outline: 8px solid teal;
-}
