@@ -170,6 +170,10 @@ li {
 
 /* Header-styling */
 
+a {
+  color: #e9e9ec;
+  text-decoration: none;
+}
 header {
   padding: 20px 100px 50px 100px;
   background-color: #2e3141;

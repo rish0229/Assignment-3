@@ -172,5 +172,5 @@ h2 {
   border-right: 30px gray solid;
   border-bottom: 30px yellow solid;
   border-left: 30px green solid;
-  outline: 40px solid purple;
+  box-shadow: 0px 20px 0 40px purple, 0px -20px 0 40px purple;
 }
